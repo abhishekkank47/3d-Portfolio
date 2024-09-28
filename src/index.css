@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ========================================= */
+
+/* hero */
+.hero-container{
+    color:white;
+    height:100vh;
+    scroll-snap-align:center; 
+}
+.heroContent{
+    display:flex;
+    justify-content:center;
+    align-item: center;
+    width:full;
+    justify-content:center;
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-item:center;
+}
+
+.hero-img{
+    animation: animate 2s infinite ease alternate;
+    
+}
+@keyframes animate {
+        to{
+            transform: translateY(20px);
+        }
+    }
+/* hero */
+
+/* ========================================= */
+
+/* who */
+.who-container{
+    color:white;
+    height:100vh;
+    scroll-snap-align:center; 
+}
+
+.right-who{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-item:center;
+}
+
+/* who */
+
+/* ========================================= */
+
+/* works */
+.work-container{
+    color:white;
+    height:100vh;
+    scroll-snap-align:center; 
+}
+/* works */
+
+/* ========================================= */
+
+/* Contact */
+.contact-container{
+    color:white;
+    height:100vh;
+    scroll-snap-align:center; 
+}
+/* Contact */
+
+/* ========================================= */
